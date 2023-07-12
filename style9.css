@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+    background-color: #ccc;
+}
+
+/* STYLING THEE TRIPS */
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    gap: 30px;
+    background-color:#072b71;
+    color: #fff;
+}
+
+nav a{
+    color:#fff;
+}
+
+.Paris_Picture{
+    margin-block-end: 20px;
+}
+
+h3{
+    text-align: center;
+    margin-block-end: 15px;
+}
+
+main p{
+    text-align: center;
+    margin-block-start: 10px;
+    margin-block-end: 5px;
+}
+
+.Travel_History{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 40px;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+
+}
+
+.Venice,
+.Meteora,
+.LiRiver,
+.Danxia,
+.Santori,
+.Hitachi {
+    display: inline;
+    margin-block-end: 20px;
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+
+aside p{
+    line-height: 1.5;
+    font-size: large;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+    margin-block-end: 10px;
+}
+
+aside h3{
+    margin-block-start: 20px;
+    margin-block-end: 10px;
+}
+
+/* STYLING AB0UT PAGE */
+
+h2{
+    text-align: center;
+    margin-block-start: 30px;
+    margin-block-end: 20px;
+}
+
+p{
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+    margin-block-end: 20px;
+}
+
+/* STYLING CONTACT PAGE */
+form{
+    padding-top: 20px;
+    margin: 0 auto;
+    border: 1px solid #a09c9c;
+    inline-size: 600px;
+    max-width: 600px;
+    min-width: 600px;
+    block-size: 60vh;
+    background-color: #fff;
+    /* padding-bottom: 40px; */
+}
+
+ input{
+    min-width: 500px;
+    font-size: large;
+    padding-top: 15px;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    inline-size: 500px;
+    block-size: 50px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #ccc;
+} 
+
+button{
+    font-size: 18px;
+    padding: 12px 24px;
+    border-radius: 0%;
+    color: #fff;
+    background-color:#072b71;
+    border: none;
+    margin-block-start: 80px;
+    margin-inline-start:250px ;
+    margin-inline-end: 250px;
+}
+
+

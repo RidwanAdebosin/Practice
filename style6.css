@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    inline-size: auto;
+    max-width: 1000px;
+}
+main{
+    display: inline-block;
+}
+.container{
+    /* float: left; */
+    margin: 30px 100px;
+    text-align: center;
+    max-width: 400px;
+    background-color: #1608b0;
+    border-radius: 15px;
+    height: 65vh;
+    padding-top: 23px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+main p, h1, h2{
+    color: #fff;
+}
+
+main p{
+    margin-block-start: 30px;
+    margin-block-end: 40px;
+    color: #f2ecd79d;
+
+}
+
+.scoreboard{
+    padding: 35px;
+    border-radius: 50%;
+    margin-inline-start: 70px;
+    margin-inline-end: 70px;
+    height: 20vh;
+    background:linear-gradient(#100679, #1608b0)
+}
+
+h2{
+    margin-block-start: 30px;
+}
+
+.aside{
+    margin-top: 30px;
+    margin-left: 0;
+    display: flex;
+    background-color: #fcfcfc;
+    inline-size: 400px;
+    height: 65vh;
+    border-radius: 15px;
+    /* max-width: 500px; */
+}
+
+p{
+    margin-block-start: 20px;
+    font-size: large;
+    margin-inline-start: 10px;
+    padding: 10px 5px;
+    margin-block-end: 20px;
+    color: #000;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Reaction{
+    display: flex;
+    inline-size: 300px;
+    border-radius: 20px;
+    padding: 0px 10px;
+    background-color: hsl(0, 13%, 95%);
+    color: rgb(224, 60, 60);
+    margin-block-end: 20px;
+    margin-inline-start: 50px;
+}
+
+.Memory{
+    display: flex;
+    inline-size: 300px;
+    border-radius: 20px;
+    padding: 0px 10px;
+    margin-block-end: 20px;
+    background-color: rgb(246, 233, 216);
+    color: rgb(246, 166, 53);
+    margin-block-end: 20px;
+    margin-inline-start: 50px;
+}
+
+.Verbal{
+    display: flex;
+    inline-size: 300px;
+    border-radius: 20px;
+    padding: 0px 10px;
+    margin-block-end: 20px;
+    background-color: rgb(230, 249, 225);
+    color: rgb(80, 179, 52);
+    margin-inline-start: 50px;
+}
+
+.Visual{
+    display: flex;
+    inline-size: 300px;
+    border-radius: 20px;
+    padding: 0px 10px;
+    background-color: rgb(245, 242, 252);
+    margin-block-end: 40px;
+    color: rgb(65, 43, 208);
+    margin-inline-start: 50px;
+}
+
+strong{
+    color: #000;
+    padding-left: 70px;
+}
+
+.reaction, .memory, .verbal, .visual{
+    position: relative;
+    top: 30px;
+    /* left: 10px; */
+}
+
+button{
+    color: #fff;
+    background-color: midnightblue;
+    padding: 15px 5px;
+    inline-size: 300px;
+    border-radius: 20px;
+    margin-inline-start: 50px;
+    border: none;
+}

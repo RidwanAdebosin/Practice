@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    line-height: 150%;
+}
+
+body{
+    inline-size: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 8px;
+    border-radius: 20px;
+}
+
+.main{
+    margin-block-end: 40px;
+    margin-block-start: 30px;
+}
+
+h2,h3,h4,p,a{
+    margin-block-end: 10px;
+    margin-inline-start: 20px;
+}
+
+/* CSS LAYOUT FLEXBOX */
+ .flex, .main{
+    display: inline-flex;
+    
+}
+
+.flex-item1{
+    inline-size: 400px;
+}
+
+a:link{
+    background-color: gray;
+    border: 8px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover{
+color: white;
+background-color:#264653;
+}
+
+h3{
+    margin-block-end: 40px;
+}
+
+/* 800-20-30-30 */
+.flex-item{
+    margin-inline-start: 30px;
+    align-items: center;
+    inline-size: 227px;
+    /* display: inline-flex; */
+}
+
+.flex-item2{
+    margin-inline-start: 20px;
+}

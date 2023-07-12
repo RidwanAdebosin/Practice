@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.logo {
+  margin: 32px 32px 16px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #0a66c2;
+}
+
+strong {
+  color: #fff;
+  background-color: #0a66c2;
+  border-radius: 3px;
+  padding: 0px 2px 0px;
+  margin-inline-start: -6px;
+}
+
+.container1 {
+  margin: 0 auto;
+  margin-block-end: 40px;
+  max-width: 400px;
+  border: 1px solid #fff;
+  box-shadow: 0 0.1em 0.1em 0.1em #edeaea;
+  border-radius: 5px;
+}
+
+.form {
+  margin: 0 auto;
+  max-width: 380px;
+  padding: 10px;
+}
+
+.alternative-signup {
+  margin: 0 auto;
+  max-width: 380px;
+}
+
+h1 {
+  margin-block-start: 20px;
+  margin-block-end: 5px;
+  margin-inline-start: 10px;
+}
+
+.form p {
+  margin-block-end: 20px;
+  margin-inline-start: 10px;
+  font-size: 14px;
+}
+
+.username {
+  display: block;
+  margin: 0 auto;
+  font-size: 1em;
+  padding: 15px 180px 15px 5px;
+  margin-block-end: 30px;
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+
+.password {
+  display: block;
+  margin: 0 auto;
+  font-size: 1em;
+  padding: 15px 180px 15px 5px;
+  margin-block-end: 20px;
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+
+.forgot-password {
+  font-weight: bold;
+  color: #0a66c2;
+  margin-inline-start: 10px;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  background-color: #8dcaea;
+  text-decoration: underline;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+.button1 {
+  display: block;
+  margin: 0 auto;
+  font-size: 1em;
+  inline-size: 355px;
+  padding: 15px;
+  border-radius: 40px;
+  border: none;
+  background-color: #0a66c2;
+  color: #fff;
+  margin-block-start: 20px;
+  margin-block-end: 10px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #004182;
+}
+
+.or {
+  inline-size: 350px;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  line-height: 0.1em;
+  margin-block-end: 20px;
+}
+
+.or span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.button2 {
+  display: block;
+  margin: 0 auto;
+  font-size: 1em;
+  inline-size: 355px;
+  padding: 15px;
+  border-radius: 40px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-block-end: 20px;
+  cursor: pointer;
+}
+
+.button2:hover {
+  background-color: #dde0e3;
+  border: none;
+}
+
+.google-logo {
+  position: relative;
+  top: 5px;
+  gap: 2px;
+}
+
+.button3 {
+  display: block;
+  margin: 0 auto;
+  font-size: 1em;
+  inline-size: 355px;
+  padding: 15px;
+  border-radius: 40px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-block-end: 30px;
+  cursor: pointer;
+}
+
+.button3:hover {
+  background-color: #dde0e3;
+  border: 2px solid #ccc;
+}
+.apple-logo {
+  position: relative;
+  top: 2px;
+}
+
+.join-linkedin {
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  margin-block-end: 50px;
+}
+
+.join-linkedin a {
+  color: #0a66c2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-logo {
+  display: flex;
+  gap: 5px;
+}
+
+.footer-logo p:first-child {
+  font-weight: bold;
+  color: #000;
+}
+
+.footer-logo p:first-child strong {
+  color: #fff;
+  background-color: #000;
+  margin-inline-start: -3px;
+}
+
+.footer-logo p:last-child {
+  color: #000;
+}
+
+#language {
+  border: none;
+  color: #797676;
+}
+
+.footer {
+  color: #797676;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 14px;
+  inline-size: 100%;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #797676;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #797676;
+}

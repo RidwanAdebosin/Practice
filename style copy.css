@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    background-color: beige;
+    font-family: sans-serif;
+    border-style: solid;
+}
+
+article{
+    margin-inline-start: 80px;
+    margin-inline-end: 80px;
+}
+.heading{
+    text-align: center;
+}
+
+.logo{
+    /* margin-block-start: 20px;
+    /* margin-inline-start: 50%; */
+    /* color: #ffff;
+    background-color:#000 ;
+    border-style: none;
+    inline-size: 50px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px 15px; */
+    margin-block-end: 20px;
+}
+
+.intro{
+    font-weight: bold;
+    text-align: center;
+    margin-block-end: 20px;
+}
+
+.google-signin{
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+    border: solid 1px ;
+    margin-block-end: 20px;
+}
+
+form:first-child{
+    margin-block-end: 20px;
+}
+
+p{
+    margin-block-end: 20px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+

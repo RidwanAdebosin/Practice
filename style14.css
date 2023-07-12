@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.nav {
+  text-align: end;
+  margin-inline-end: 30px;
+}
+
+ol {
+  list-style: none;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  margin: 10px 0 0 0;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9 {
+  background-color: black;
+  width: 5px;
+  height: 5px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(3, 7px);
+  grid-template-rows: repeat(3, 7px);
+}
+
+ul {
+  list-style: none;
+}
+
+.tools {
+  display: none;
+}
+
+.tool{
+   text-align: center;
+}
+
+.tool:hover{
+    border: solid 1px #ccc;
+}
+
+.dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown:hover .tools {
+  position: absolute;
+  left: -190px;
+  top: 5px;
+  display: inline-grid;
+  width: fit-content;
+  height: 30vh;
+  padding: 30px 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+  box-shadow: 0 0 15px var( --shadow);
+  grid-gap: 10px;
+}
+
+.profile_picture {
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: underline;
+  /* background-color: blue;
+  width: fit-content; */
+}
+
+.main{
+  max-width: 100%;
+}
+
+.google-logo {
+  font-size: 90px;
+  margin-block-end: 30px;
+  display: flex;
+  margin: 0 auto;
+  margin-block-start: 200px;
+  margin-block-end: 10px;
+}
+
+.search {
+ text-align: center;
+ display: flex;
+ max-width: 70%;
+ margin-left: 15%;
+ margin-right: 15%;
+ margin-right: auto;
+}
+
+.search-site {
+  border: 1px solid rgb(225, 210, 210);
+  border-radius: 20px;
+  inline-size: 50%;
+  margin-inline-end: 20px;
+  padding: 20px;
+  font-size: 10px;
+}
+
+.voicelogo{
+  inline-size: 10%;
+  height: 5vh;
+  border-radius: 50%;
+  position: relative;
+  right: 70px;
+  top: 5px;
+}
+
+.button{
+    margin: 0 auto;
+    margin-block-start: 15px;
+    text-align: center;
+}
+
+button{
+    margin-inline-end: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button:hover{
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+}
